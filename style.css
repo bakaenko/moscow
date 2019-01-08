@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(1500.jpg);
+    height: 500px;
+    width: 1500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.nav a{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.logo{
+    background-image: url(icons/logo.png);
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+}
+
+h1{
+    color: yellow;
+    font-family: cursive;
+    margin-left: 10px;
+}
+
+.nav-2{
+    margin-left: 0; 
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    margin-top: 15px;
+    font-size: 120%;
+}
+
+a{
+    color: white;
+    margin: 0 25px;
+}
+
+.header-moscow{
+    position: relative;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    font-size: 250%;
+}
+
+.header-moscow-h2{
+    color: white;
+    font-size: 150%;
+    position: absolute;
+    top: 190px;
+    left: 480px;
+}
+
+.header-moscow-button{
+    cursor: pointer;
+    background-color: rgb(11, 142, 202);
+    color: white;
+    font-size: 150%;
+    height: 70px;
+    width: 220px;
+    line-height: 70px;
+    border-radius: 15px;
+    position: absolute;
+    top: 300px;
+    left: 635px;
+    text-align: center;
+}
+
+.moscow{
+    margin: 15px;
+}
+
+h3{
+    color: rgb(11, 142, 202);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.moscow>blockquote{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    margin-top: 40px;
+}
+
+.line{
+    display: flex;
+}
+
+#block{
+    padding: 50px;
+    width: 650px;
+}
+
+
+
+.map{
+    background-image: url(icons/map.png);
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h4{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+
+.suvenir{
+    background-image: url(icons/souvenir.png);
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.foto{
+    background-image: url(icons/picture.png);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.compass{
+    background-image: url(icons/compass.png);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.discussion{
+    background-image: url(icons/discussion.png);
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.sun{
+    background-image: url(icons/sun.png);
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.text{
+    font-size: 90%;
+    color: rgb(58, 58, 58);
+}
+
+.img{
+    background-image: url(photos/group.jpg);
+    height: 500px;
+    width: 750px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.about-text{
+    height: 500px;
+    width: 750px;
+    background-color: rgb(255, 193, 60);
+}
+
+.about-text>h4{
+    margin-top: 70px;
+    color: white;
+    margin-left:  70px;
+}
+
+.about-text p{
+    margin-top: 30px;
+    color: white;
+    margin-left:  70px;
+}
+
+.about-text-button{
+    color: white;
+    background-color:rgb(211, 154, 31); 
+    border: 2px solid rgb(190, 138, 25);
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.yellow-line{
+    margin: 15px auto;
+    height: 2px;
+    width: 250px;
+    background-color: rgb(255, 193, 60);
+}
+
+.photo{
+    text-align: center;
+}
+
+.photo>blockquote{
+    margin-bottom: 15px;
+}
+
+.photo-1{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-2{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-3{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-4{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-5{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-6{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-7{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-8{
+    width: 25%;
+    height: 250px;
+    background-image: url(photos/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.otzivi-1{
+    padding: 50px;
+    width: 650px;
+}
+
+.otzivi-1>p{
+    background-color: rgb(218, 218, 218); 
+    padding: 20px;
+}
+
+.otzivi-1>div{
+    margin-top: 15px;
+}
+
+.otzivi-1>div>p{
+    margin-left: 10px; 
+    line-height: 50px;
+}
+
+.otzivi-1-photo{
+    width: 50px;
+    height: 50px;
+    background-image: url(testimonials/test1.jpg);
+    background-size: contain;
+}
+
+.otzivi-2{
+    padding: 50px;
+    width: 650px;
+}
+
+.otzivi-2>p{
+    background-color: rgb(218, 218, 218); 
+    padding: 20px;
+}
+
+.otzivi-2>div{
+    margin-top: 15px;
+}
+
+.otzivi-2>div>p{
+    margin-left: 10px; 
+    line-height: 50px;
+}
+
+
+.otzivi-2-photo{
+    width: 50px;
+    height: 50px;
+    background-image: url(testimonials/test2.jpg);
+    background-size: contain;
+}
+
+.button-list{
+    margin-left: 47%;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+}
+
+.button-list-1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(11, 142, 202);
+    margin-right: 10px; 
+}
+
+.button-list-2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(218, 218, 218);
+    margin-right: 10px; 
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(50, 82, 104);
+    width: 100%;
+}
+
+footer>div{
+    justify-content: space-between;
+}
+
+footer>div>div{
+    padding-top: 30px;
+    margin-left: 50px; 
+    width: 380px;
+    color: white;
+}
+
+footer>div>div>p{
+    margin-top: 15px;
+}
+
+.kontakti{
+    padding-top: 30px;
+    width: 380px;
+}
+
+.kontakti>p{
+    color: white;
+    font-size: 160%;
+    margin-top: 30px;
+}
+
+.kontakti-1{
+    margin-top: 15px;
+    display: flex;
+}
+
+.kontakti-1>p{
+    margin-left: 10px;
+}
+
+.kontakti-map-img{
+    background-image: url(icons/placeholder.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.kontakti-mail-img{
+    background-image: url(icons/mail.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.kontakti-phone-img{
+    background-image: url(icons/telephone.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.news>p{
+    color: white;
+    font-size: 160%;
+    margin-top: 30px;
+}
+
+.news-1{
+    margin-top: 20px;
+}
+
+.news-1>p{
+    color: rgb(194, 194, 194);
+}
+
+.news-1>blockquote{
+    margin-top: 10px; 
+    color: aqua;
+}
+
+
+
+@media (max-width: 640px) {
+    .no-line{
+        display: block;
+    }
+}

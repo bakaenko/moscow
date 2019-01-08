@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.wrapper{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(images/top1.1.jpg);
+    height: 500px;
+    width: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.logo{
+    background-image: url(icons/logo.png);
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+}
+
+h1{
+    color: yellow;
+    font-family: cursive;
+    margin-left: 10px;
+}
+
+.nav-2{
+    margin-left: 0; 
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    margin-top: 15px;
+    font-size: 120%;
+}
+
+a{
+    color: white;
+    margin: 0 25px;
+}
+
+.header-moscow{
+    position: relative;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    font-size: 250%;
+}
+
+.header-moscow-h2{
+    color: white;
+    font-size: 150%;
+    position: absolute;
+    top: 190px;
+    left: 480px;
+}
+
+.header-moscow-button{
+    cursor: pointer;
+    background-color: rgb(11, 142, 202);
+    color: white;
+    font-size: 150%;
+    height: 70px;
+    width: 220px;
+    line-height: 70px;
+    border-radius: 15%;
+    position: absolute;
+    top: 300px;
+    left: 635px;
+    text-align: center;
+}
+
+.line{
+    display: flex;
+}
+
+h3{
+    color: rgb(11, 142, 202);
+    text-align: center;
+    margin: 15px 0;
+}
+
+h4{
+    font-size: 150%;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.img{
+    background-image: url(images/3_01.jpg);
+    height: 510px;
+    width: 749px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moscow-text{
+    height: 510px;
+    width: 750px;
+    background-color: rgb(255, 193, 60);
+}
+
+.img-2{
+    background-image: url(images/2_02.jpg);
+    height: 415px;
+    width: 750px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moscow-text-2{
+    height: 415px;
+    width: 750px;
+    background-color: rgb(255, 193, 60);
+    text-align: right;
+}
+
+.moscow-text-2 p{
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.moscow-text-2 blockquote{
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 150%;
+}
+
+.moscow-text p{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.moscow-text blockquote{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 150%;
+}
+
+.bron{
+    color: white;
+    background-color:rgb(211, 154, 31); 
+    border: 2px solid rgb(190, 138, 25);
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.bron2{
+    color: white;
+    background-color:rgb(211, 154, 31); 
+    border: 2px solid rgb(190, 138, 25);
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.moscow-text-3{
+    height: 508px;
+    width: 749px;
+    background-color: rgb(255, 193, 60);
+}
+
+.moscow-text-3 p{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.moscow-text-3 blockquote{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 150%;
+}
+
+
+.img-3{
+    background-image: url(images/3_03.jpg);
+    height: 508px;
+    width: 750px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moscow-text-4{
+    height: 499px;
+    width: 750px;
+    background-color: rgb(255, 193, 60);
+    text-align: right;
+}
+
+.moscow-text-4 p{
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.moscow-text-4 blockquote{
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 150%;
+}
+
+.img-4{
+    background-image: url(images/2_04.jpg);
+    height: 501px;
+    width: 750px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+footer{
+    margin-top: 25px;
+    background-color: rgb(50, 82, 104);
+    width: 100%;
+}
+
+footer>div{
+    justify-content: space-between;
+}
+
+footer>div>div{
+    padding-top: 30px;
+    margin-left: 50px; 
+    width: 380px;
+    color: white;
+}
+
+footer>div>div>p{
+    margin-top: 15px;
+}
+
+.kontakti{
+    padding-top: 30px;
+    width: 380px;
+}
+
+.kontakti>p{
+    color: white;
+    font-size: 160%;
+    margin-top: 30px;
+}
+
+.kontakti-1{
+    margin-top: 15px;
+    display: flex;
+}
+
+.kontakti-1>p{
+    margin-left: 10px;
+}
+
+.kontakti-map-img{
+    background-image: url(icons/placeholder.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.kontakti-mail-img{
+    background-image: url(icons/mail.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.kontakti-phone-img{
+    background-image: url(icons/telephone.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.news>p{
+    color: white;
+    font-size: 160%;
+    margin-top: 30px;
+}
+
+.news-1{
+    margin-top: 20px;
+}
+
+.news-1>p{
+    color: rgb(194, 194, 194);
+}
+
+.news-1>blockquote{
+    margin-top: 10px; 
+    color: aqua;
+}
